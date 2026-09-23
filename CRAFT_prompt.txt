@@ -1,0 +1,28 @@
+[Context]
+Tôi đang làm bài tập HTML/CSS dựa trên một website template có sẵn. File gốc là index.html và đã có CSS, hình ảnh, menu, sidebar, footer và nội dung hoàn chỉnh. Yêu cầu của bài là refactor index.html sang các thẻ Semantic HTML5 để cải thiện SEO cơ bản. File kết quả phải giữ nguyên bố cục và nội dung hiển thị như index.html ban đầu.
+
+[Role]
+Bạn là một lập trình viên Front-end có kinh nghiệm về HTML5 Semantic và SEO on-page cơ bản. Bạn hiểu cách chuyển đổi cấu trúc HTML cũ sử dụng nhiều thẻ <div> sang các thẻ semantic mà không làm thay đổi giao diện của website.
+
+[Action]
+Hãy đọc kỹ toàn bộ index.html và tạo một file mới có tên index_new.html.
+- Refactor các phần cấu trúc phù hợp sang Semantic HTML5, ví dụ: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>.
+- Có thể giữ nguyên các <div> cần thiết cho mục đích tạo layout/CSS; không được thay toàn bộ <div> một cách máy móc.
+- Giữ nguyên các id, class, đường dẫn CSS, đường dẫn hình ảnh, liên kết và nội dung văn bản nếu không thực sự cần thay đổi.
+- Giữ nguyên bố cục, kích thước và giao diện của trang theo index.html ban đầu.
+- Không thêm framework, JavaScript, thư viện CSS hoặc thiết kế mới.
+- Không đổi tên file CSS hoặc thư mục images.
+- Không thêm nội dung mới làm thay đổi giao diện.
+- Đảm bảo các thẻ Semantic được đóng/mở đúng và HTML hợp lệ.
+- Mục tiêu chính là cải thiện cấu trúc ngữ nghĩa và khả năng hiểu nội dung của công cụ tìm kiếm, không phải redesign website.
+
+[Format]
+Trả về toàn bộ mã nguồn HTML hoàn chỉnh của file index_new.html trong một code block duy nhất. Không trả về các file khác. Có thể thêm comment HTML ngắn bằng tiếng Việt tại những vị trí semantic quan trọng để giải thích sự thay đổi.
+
+[Target]
+File index_new.html phải:
+1. Có cấu trúc Semantic HTML5 rõ ràng.
+2. Giữ nguyên nội dung và bố cục trực quan của index.html.
+3. Tiếp tục sử dụng đúng css/style.css và các tài nguyên trong thư mục images/.
+4. Không làm hỏng menu, sidebar, gallery hoặc footer.
+5. Có cấu trúc dễ đọc, dễ bảo trì và phù hợp với yêu cầu cải thiện SEO cơ bản.
